@@ -31,3 +31,358 @@
     transform: rotate(360deg);
   }
 }
+
+.laskincss {
+  background-color: rgb(37, 164, 214);
+  border-top: 1px solid hsl(0, 0%, 3%);
+  border-bottom: 1px solid hsl(0, 0%, 3%);
+  shape-outside: border-box;
+  width: 100%;
+} 
+
+.yllatysdiv1css {
+  position: fixed;
+  bottom: 310px;
+  width: 150px;
+  right: 10px;
+  font-size: 10px;  
+  background-color: #51ddd6;
+  border: 3px solid #73AD21;
+  padding-top: 3px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+}
+
+.yllatysdiv1css:hover {
+ cursor: pointer;
+}
+
+.yllatysdiv2css {
+  position: fixed;
+  bottom: 225px;
+  width: 150px;
+  right: 10px;
+  font-size: 10px;  
+  background-color: #51ddd6;
+  border: 3px solid #73AD21;
+  padding-top: 3px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+}
+
+.laatikkoteksti2css {
+  font-size: 13px;  
+}
+
+
+.yllatysdiv3css {
+  position: fixed;
+  bottom: 170px;
+  width: 150px;
+  right: 10px;
+  font-size: 10px;  
+  background-color: #51ddd6;
+  border: 3px solid #73AD21;
+  padding-top: 3px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+}
+
+.laatikkoteksti3css {
+  font-size: 13px;  
+}
+
+.refreshnappicss {
+  position: fixed;
+  bottom: 113px;
+  width: 150px;
+  right: 10px;
+}
+
+.refreshnappikorkeusvasemmallacss {
+  position: fixed;
+  bottom: 113px;
+  width: 250px;
+  left: 10px;
+}
+
+.refreshnappikorkeusvasemmallafooterinpaallacss {
+  position: fixed;
+  bottom: 23px;
+  width: 250px;
+  left: 10px;
+}
+
+.refreshnappikorkeusvasemmallafooterinpaallaylempanacss {
+  position: fixed;
+  bottom: 33px;
+  width: 250px;
+  left: 10px;
+}
+
+.koodaricss {
+  background-color: rgb(37, 164, 214);
+  border-top: 1px solid hsl(0, 0%, 3%);
+  border-bottom: 1px solid hsl(0, 0%, 3%);
+  shape-outside: border-box;
+  width: 100%;
+} 
+.koodariteksticss {
+  font-size: 13px;  
+  font-weight: bold;
+}
+
+.testicss {
+  font-size: 11px;  
+  font-weight: bold;
+}
+
+.testirendercss {
+  font-size: 11px;  
+  font-weight: bold;
+  line-height: 9px; 
+}
+
+.headercss {
+  background-color: rgb(37, 164, 214);
+  border-top: 1px solid hsl(0, 0%, 3%);
+  border-bottom: 1px solid hsl(0, 0%, 3%);
+  shape-outside: border-box;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  font-size: 11px;  
+  font-weight: bold;
+  text-align: center;
+}
+
+.headertilacss {
+  font-size: 12px; 
+}
+
+.footercss {
+  background-color: rgb(37, 164, 214);
+  border-top: 1px solid hsl(0, 0%, 3%);
+  border-bottom: 1px solid hsl(0, 0%, 3%);
+  shape-outside: border-box;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  font-size: 11px;  
+  font-weight: bold;
+  text-align: center;
+}
+
+.todolistcss {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  box-shadow: 
+    /* Top layer shadow: */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* Second layer: */
+    0 10px 0 -5px #eee,
+    /* Second layer shadow: */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    /* Third layer: */
+    0 20px 0 -10px #eee, 
+    /* Third layer shadow: */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+  padding: 10px;
+}
+
+.todocss {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1px 20px 1px;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+.productsAppboxcss {
+  background-color: rgb(252, 248, 248);
+  margin: 20px;
+  width: 80%; 
+  /* display: flex;
+  flex-direction: column; */
+  align-items: left;
+  border: 1px solid #efefef;
+  box-shadow:
+    /* Top layer shadow: */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* Second layer: */
+    0 10px 0 -5px #eee,
+    /* Second layer shadow: */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    /* Third layer: */
+    0 20px 0 -10px #eee,
+    /* Third layer shadow: */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+  padding: 5px;
+}
+
+.productcss {
+  /* display: flex;   // Tämä tekee sen että menee rinnakkain kaikki. */
+  /* justify-content: flex-start;  // Tämä tekee ?? */
+  align-items: left;
+  /* padding: PER SUB-SECTION: ylä px vasen px ala px */
+  padding: 10px 20px 5px;
+  width: 80%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+
+.imageboxcss {
+  background: #6441A5;
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+  background: linear-gradient(to right, #2a0845, #6441A5);
+}
+
+.imagecss {
+  height: 20%;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.memecss {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+}
+
+.memecss > .memeimgcss {
+  width: 90%;
+  align-self: center;
+}
+
+.memecss > h6 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.memecss > .memebottomcss {
+  bottom: 0;
+}
+
+.memecss > .memetopcss {
+  top: 0;
+}
+
+.spacekomponentticss {
+  width: 100%;
+  height: 3px;
+}
+
+.spacekomponentti2css {
+  width: 100%;
+  height: 6px;
+}
+
+.spacekomponentti3css {
+  width: 100%;
+  height: 800px;
+}
+
+.blinkingslowcss {
+     animation: blink 10s linear infinite;
+}
+.blinkingmediumcss {
+  animation: blink 2s linear infinite;
+  color: black; 
+  font-size: 23px;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.blinkingfastcss {
+     animation: blink 0.2s linear infinite;
+     font-size: 25px;
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+} 
+
+
+
+
+/* WEBSTORE STYLINGS: */
+
+:root{
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3fe;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+body{
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-bright{
+  color: var(--lightBlue);
+}
+
+/* Plus ja miinusnappistylings: */
+/* HUOM "!important" tekee että k.o. asetus overridaa default bootstrapin*/
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
