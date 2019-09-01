@@ -20,7 +20,7 @@ export default class MyApp extends React.Component {
  
         const onError = (err) => {
             // The main Paypal's script cannot be loaded or somethings block the loading of that script!
-            console.log("Error!", err);
+            console.log("Error!!", err);
             // Because the Paypal's main script is loaded asynchronously from "https://www.paypalobjects.com/api/checkout.js"
             // => sometimes it may take about 0.5 second for everything to get set, or for the button to appear
         }
@@ -32,7 +32,7 @@ export default class MyApp extends React.Component {
  
         const client = {
             // sandbox:    'YOUR-SANDBOX-APP-ID',
-            sandbox:   process.env.REACT_APP_SALAINEN_ID,
+            sandbox:   process.env.REACT_APP_SALAINEN_ID, 
             // production: 'YOUR-PRODUCTION-APP-ID',
         }
         // In order to get production's app-ID, you will have to send your app to Paypal for approval first
