@@ -16,7 +16,8 @@ class Meme extends Component {
     //Refresh nappi: 
     refreshPage() {
         console.log("Page refeshed.");
-        window.location.reload();
+        //window.location.reload();
+        window.location = "/meme";  
     } 
     refreshPagehoverlog() {
         console.log("Page reload button hovered.");

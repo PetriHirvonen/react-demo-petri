@@ -19,7 +19,8 @@ class Forms extends Component {
     //Refresh nappi: 
     refreshPage() {
         console.log("Page refeshed.");
-        window.location.reload();
+        //window.location.reload();
+        window.location = "/forms";    
     } 
     refreshPagehoverlog() {
         console.log("Page reload button hovered.");

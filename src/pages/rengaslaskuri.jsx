@@ -16,7 +16,10 @@ class Rengaslaskuri extends Component {
     //Refresh nappi: 
     refreshPage() {
         console.log("Page refeshed.");
-        window.location.reload();
+        // window.location.reload();
+        // window.location = "http://www.sadeinnovations.com";
+        // window.location = "/home";
+        window.location = "/rengaslaskuri";        
     } 
     refreshPagehoverlog() {
         console.log("Page reload button hovered.");

@@ -56,7 +56,8 @@ class Surprises extends Component {
     //Refresh nappi: 
      refreshPage() {
         console.log("Page refeshed.");
-        window.location.reload();
+        //window.location.reload();
+        window.location = "/main";    
     } 
     refreshPagehoverlog() {
         console.log("Page reload button hovered.");
