@@ -19,7 +19,10 @@ class Rengaslaskuri extends Component {
         // window.location.reload();
         // window.location = "http://www.sadeinnovations.com";
         // window.location = "/home";
-        window.location = "/rengaslaskuri";        
+        // window.location = "/rengaslaskuri";     
+        // window.location.replace("/home");  
+        window.location.replace("/rengaslaskuri");  
+        
     } 
     refreshPagehoverlog() {
         console.log("Page reload button hovered.");
@@ -50,6 +53,7 @@ class Rengaslaskuri extends Component {
                     <div className="refreshnappicss">
                         < button onMouseOver={this.refreshPagehoverlog} onClick = {this.refreshPage} > NOLLAA SIVU </button>
                     </div>
+            
                 </div>
 
                 <div>
