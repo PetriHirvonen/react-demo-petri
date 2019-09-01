@@ -202,7 +202,7 @@ class Laskinrengas extends Component {
                     Uusien rengas-vannesettien valinta voi olla vaikeaa, koska uuden sarja tulee paitsi näyttää hyvältä, 
                     niin myös mahtua paikoilleen ja eturenkaiden tulee myös mahtua kääntymään! <br></br>
                     Tämä rengaslaskin auttaa sinua kertomalla vanhojen ja uusien sarjojesi eron. 
-                    Jos ero on yli +1...+2%, voi mahtuvuudessa olla ongelmaa. <br></br>
+                    Yleensä, jos ero on yli +1.5% nykyisiin verrattuna, voi mahtuvuudessa olla ongelmaa. <br></br>
                     OHJEET:  Anna ensin nykyrenkaittesi tiedot, ja sitten uusien renkaiden tiedot. Ja supertietokone laskee EROn. 
                     <br></br><br></br>
                 </div>

@@ -102,6 +102,13 @@
   right: 10px;
 }
 
+.refreshnapinallacss {
+  position: fixed;
+  bottom: 63px;
+  width: 200px;
+  right: 0px;
+}
+
 .refreshnappikorkeusvasemmallacss {
   position: fixed;
   bottom: 113px;

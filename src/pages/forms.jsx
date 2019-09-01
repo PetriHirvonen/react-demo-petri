@@ -48,7 +48,7 @@ class Forms extends Component {
                     <Link to="/home"> Go to Home </Link>
                     <br />
                 </div>
-                <div className="refreshnappikorkeusvasemmallafooterinpaallaylempanacss">
+                <div className="refreshnappikorkeusvasemmallafooterinpaallacss">
                     <small>
                         forms.jsx file
                     </small>

@@ -25,7 +25,8 @@ import Spacekomponentti3 from '../../components/spacekomponentti3';
                                         <CartColumns />
                                         <CartList value={valueArvoCartille} />
                                         {/* tällä y.o:lla saadaan koko context.js:n arvot eli ultimately kaikki data.js filen itemit */}
-                                        <CartTotals value={valueArvoCartille} />
+                                        <CartTotals value={valueArvoCartille} history={this.props.history}/>
+                                        {/* y.o. history props passataan PayPalButton.js:ään */}
                                     </React.Fragment>
                                 );
                             } 

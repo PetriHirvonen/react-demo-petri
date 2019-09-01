@@ -28,7 +28,7 @@ class Lifecyclemethod2 extends Component {
     render() {
         return (
             // <div className="refreshnappicss">
-            <div>    
+            <div className="refreshnapinallacss">    
                 {/* <Lifecyclemethodconditionalrendering isLoading={this.state.isLoading} /> */}
                 {<div>You have {this.state.unreadMessages.length} unread messages! </div>}
             </div>

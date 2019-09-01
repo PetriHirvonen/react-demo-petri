@@ -24,6 +24,8 @@ const HomePage = () => {
                 <h2>Welcome to Home !</h2>
                 <h4>We provide versatile solutions for multi-faceted industrial applications to enhance your 
                     business productivity not only to the next level but way beyond.</h4>
+                <p> (...niin ja tämä on siis täysin epävirallinen draft-demo sivusto...) </p>
+                <br />
                 <p><font style={{fontWeight: "bold", color: "purple"}}>Select a service from below.</font> </p>  
                 <Link to="/main"> Go to Main </Link>
                 <br />
@@ -48,7 +50,7 @@ const HomePage = () => {
                 <a href="http://www.sadeinnovations.com"> External linkkiä... </a>
                 <br />
                 <br />
-                <div className="refreshnappikorkeusvasemmallacss">
+                <div className="refreshnappikorkeusvasemmallafooterinpaallacss">
                     <small>homepage.jsx</small> 
                 </div>
 
