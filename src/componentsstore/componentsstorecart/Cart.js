@@ -20,14 +20,22 @@ import Spacekomponentti3 from '../../components/spacekomponentti3';
                             const {cart} = valueArvoCartille;
                             if (cart.length>0) {
                                 return(
-                                    <React.Fragment>
-                                        <Title name="your" title="SADE service cart" />
-                                        <CartColumns />
-                                        <CartList value={valueArvoCartille} />
-                                        {/* tällä y.o:lla saadaan koko context.js:n arvot eli ultimately kaikki data.js filen itemit */}
-                                        <CartTotals value={valueArvoCartille} history={this.props.history}/>
-                                        {/* y.o. history props passataan PayPalButton.js:ään */}
-                                    </React.Fragment>
+                                    <div>
+                                        <React.Fragment>
+                                            <Title name="your" title="SADE service cart" />
+                                            <CartColumns />
+                                            <CartList value={valueArvoCartille} />
+                                            {/* tällä y.o:lla saadaan koko context.js:n arvot eli ultimately kaikki data.js filen itemit */}
+                                            <CartTotals value={valueArvoCartille} history={this.props.history}/>
+                                            {/* y.o. history props passataan PayPalButton.js:ään */}
+                                            <br />
+                                        </React.Fragment>
+                                        <div className="tekstikeskellecss">
+                                            <br />
+                                            <p>Huom. että tähän demoympäristöön ei ole tehty tietojen tallennusta mihinkään kantaan tässä vaiheessa eli 
+                                            jos re-freshaat browserin re-fresh -napilla tämän sivun niin ostoskorisi tyhjenee.</p>
+                                        </div>
+                                    </div>
                                 );
                             } 
                             else {
@@ -38,12 +46,18 @@ import Spacekomponentti3 from '../../components/spacekomponentti3';
                         }}
                     </ProductConsumer>
                    
-                    
+                    {/* <div>
+                        <h6>Huom. että tähän demoympäristöön ei ole tehty tietojen tallennusta kantaan tässä vaiheessa eli 
+                        jos re-freshaat browserin re-fresh -napilla tämän sivun niin ostoskorisi tyhjenee.</h6>
+                    </div> */}
+
                     <Spacekomponentti />
                     <Spacekomponentti2 />
                     <Spacekomponentti3 />
                 </section>
                 
+
+                <br />
                 
                 <div>
                     <h6> Cart.js file</h6>

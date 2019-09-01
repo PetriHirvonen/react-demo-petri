@@ -322,6 +322,18 @@
   height: 800px;
 }
 
+.tekstioikeaanreunaancss {
+  font-size: 13px;  
+  text-align: right;
+  margin-right: 10%;
+}
+
+.tekstikeskellecss {
+  font-size: 13px;  
+  text-align: center;
+}
+
+
 .blinkingslowcss {
      animation: blink 10s linear infinite;
 }

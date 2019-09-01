@@ -15,7 +15,9 @@ export default function CartList ({value}) {
                 // huom. nuo itemArvoX ja valueArvox tulee CartItem.js;stä
             })}
             <br />
-            CartList.js
+            <br />
+            <br />
+            <small>CartList.js</small>
             <br />
         </div>
     );
