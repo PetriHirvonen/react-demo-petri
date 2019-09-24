@@ -16,6 +16,7 @@ import Rengaslaskuri from './pages/rengaslaskuri';
 import Rengaslaskurialkup from './pages/rengaslaskurialkup';
 import Contact from './pages/contact';
 import MapOL from './pages/mapOL';
+import MapMB from './pages/mapMB';
 import Store from './pages/store';
 import Storecart from './pages/storecart';
 import Storedetails from './pages/storedetails';
@@ -42,6 +43,7 @@ class IndexOmaAppRouter extends Component {
                     <Route exact path="/rengaslaskurialkup" component={Rengaslaskurialkup} />
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/mapOL" component={MapOL} />
+                    <Route exact path="/mapMB" component={MapMB} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/store" component={Store} /> 
                     <Route exact path="/storecart" component={Storecart} /> 

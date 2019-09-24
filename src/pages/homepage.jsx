@@ -43,7 +43,9 @@ const HomePage = () => {
                 <br /> */}
                 <Link to="/contact"> Go to Contact info </Link>
                 <br />
-                <Link to="/mapOL"> Go to Map (Open Layers) </Link>
+                <Link to="/mapOL"> Go to Map (Open Layers Maps) </Link>
+                <br />
+                <Link to="/mapMB"> Go to Map (Mapbox Maps) </Link>
                 <br />
                 <Link to="/store"> Go to WEB STORE </Link>
                 <br />
