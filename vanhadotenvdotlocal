@@ -1,0 +1,3 @@
+REACT_APP_MAPBOX_TOKEN=pk.eyJ1IjoicGV0cmloaXJ2b25lbiIsImEiOiJjazB4bmkzOHgwNW9sM3BtdThpMGQ1emZrIn0._rcD7TSQdffTXwH4RhGtLw
+
+(Tätä ei loppupeleissä tarvittu, ottaa tokenin dotenvdotdevelopmentista)

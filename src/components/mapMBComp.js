@@ -25,7 +25,7 @@ class MapMBComp extends Component {
     return (
        <div>
          <div>
-                <button onClick={e => this.userActionIotCampusSADE()}> Zoom on SADE (Salo IoT Campus), zoom 15</button>
+                <button onClick={e => this.userActionIotCampusSADE()}> Zoom on SADE (Salo IoT Campus), zoom 15..</button>
                 <br></br>
          </div>
 
