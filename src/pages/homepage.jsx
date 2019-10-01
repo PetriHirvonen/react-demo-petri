@@ -47,6 +47,10 @@ const HomePage = () => {
                 <br />
                 <Link to="/mapMB"> Go to Map (Mapbox Maps) </Link>
                 <br />
+                <Link to="/mapMBOttawaSkateParks"> Go to Ottawa Skateboard Maps demo page (Mapbox Maps) </Link>
+                <br />
+                <Link to="/mapMBSaloFood"> Go to Salo Food Scene i.e. key restaurants (Mapbox Maps) </Link>
+                <br />
                 <Link to="/store"> Go to WEB STORE </Link>
                 <br />
                 <Link to="/about"> Go to About </Link>

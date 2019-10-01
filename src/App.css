@@ -415,3 +415,17 @@ body{
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
+
+
+
+/* KARTTA-NAPPI-STYLINGS: näillä lähtee napin tausta ja taustaviivat jne niin että näkyy vain svk kuva ts. ikoni */
+/* Ja tietysti ikonin koko ruudulla.  */
+.marker-btncss {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.marker-btncss img {
+  width: 20px;
+  height: 20px;
+}

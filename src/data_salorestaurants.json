@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "crs": { 
+    "type": "name", 
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+
+  "features": [
+    { 
+      "type": "Feature",
+      "properties": {
+        "RESTAURANT_ID": 1,
+        "NAME": "SADE Canteen", 
+        "DESCRIPTIO": "Excellent brunch, top-of-the-class kvarg. Excellent price-quality ratio.", 
+        "PICTURE__1": null 
+      }, 
+      "geometry": { 
+        "type": "Point", 
+        "coordinates": [ 23.102628, 60.389487 ] 
+      } 
+    },
+
+    { "type": "Feature", 
+      "properties": { "RESTAURANT_ID": 2, "NAME": "Kuutio Canteen", "DESCRIPTIO": "Basic okayish salads, expensivish other nutritives", "PICTURE__1": null },
+      "geometry": { "type": "Point", "coordinates": [ 23.101737, 60.389158] } },
+
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 3, "NAME": "IoT Campus Canteen", "DESCRIPTIO": "Basic ok food, better than starving to death", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.101791, 60.388845 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 4, "NAME": "Kampa Canteen", "DESCRIPTIO": "Traditional workplace food. Closed.", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.100675, 60.388252 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 5, "NAME": "Merikaari Canteen", "DESCRIPTIO": "Good place whenever in need to practise German", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.104248, 60.389556] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 6, "NAME": "Patarouva", "DESCRIPTIO": "Surprise every day.", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.112370, 60.388453 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 7, "NAME": "Seurahuone", "DESCRIPTIO": "Basic okayish salads, expensivish other nutritives", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ -23.123893, 60.385097 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 8, "NAME": "Hesburger Plaza", "DESCRIPTIO": "Kerrosburgers and other burgers", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.124526, 60.386401 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 9, "NAME": "Subway", "DESCRIPTIO": "Sandwiches, usually good", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.127809, 60.386433 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 10, "NAME": "Bio-Salo", "DESCRIPTIO": "Pop corn", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.134954, 60.386317 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 11, "NAME": "Hesburger Prisma", "DESCRIPTIO": "Kerrosburgers and other burgers", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.084571, 60.393929 ] } },
+    { "type": "Feature", "properties": { "RESTAURANT_ID": 12, "NAME": "Pick 'n' go", "DESCRIPTIO": "Raw Food, Free of Cost. Beware of the land owner (has a shotgun).", "PICTURE__1": null }, "geometry": { "type": "Point", "coordinates": [ 23.084035, 60.389890 ] } }
+  ]
+  }
+

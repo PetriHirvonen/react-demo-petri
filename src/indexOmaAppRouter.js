@@ -17,6 +17,8 @@ import Rengaslaskurialkup from './pages/rengaslaskurialkup';
 import Contact from './pages/contact';
 import MapOL from './pages/mapOL';
 import MapMB from './pages/mapMB';
+import MapMBOttawaSkateParks from './pages/mapMBOttawaSkateParks';
+import MapMBSaloFood from './pages/mapMBSaloFood';
 import Store from './pages/store';
 import Storecart from './pages/storecart';
 import Storedetails from './pages/storedetails';
@@ -44,6 +46,8 @@ class IndexOmaAppRouter extends Component {
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/mapOL" component={MapOL} />
                     <Route exact path="/mapMB" component={MapMB} />
+                    <Route exact path="/mapMBOttawaSkateParks" component={MapMBOttawaSkateParks} />
+                    <Route exact path="/mapMBSaloFood" component={MapMBSaloFood} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/store" component={Store} /> 
                     <Route exact path="/storecart" component={Storecart} /> 

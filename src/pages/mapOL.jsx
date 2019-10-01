@@ -25,10 +25,18 @@ class MapOL extends Component {
                         <Link to="/home"> Go to Home </Link>
                         <br />
                         <br />
-                        Tämä on mapOL.jsx (Open Layers Map). Enjoy. 
+                        Tämä on mapOL.jsx (Open Layers Map, basic example, with various zoom levels centered in Salo etc.). Enjoy. 
+                        <br />
                         <br />
                         <MapOLComp /> 
                         <Spacekomponentti />
+
+                        Kaikki karttademot: 
+                        <li><Link to="/mapMBOttawaSkateParks"> Ottawa Skateparks (Mapbox Map) </Link></li>
+                        <li><Link to="/mapMBSaloFood"> Salo Food map (Mapbox Map) </Link></li>
+                        <li><Link to="/mapMB"> Southern Finland, Sat Map (Mapbox Map) </Link></li>
+                        <li><Link to="/mapOL"> Open Layers basic example (Open Layers Map) (tämä sivu) </Link></li>
+                                           
                         <Spacekomponentti2 />
                         <br />
                         <Link to="/home"> Go to Home </Link>
