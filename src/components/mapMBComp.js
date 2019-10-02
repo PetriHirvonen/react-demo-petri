@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import  ReactMapGL, { NavigationControl}  from 'react-map-gl';
-
+//Fly transition:
+import {LinearInterpolator, FlyToInterpolator} from 'react-map-gl';
+// Fly transition:, 3rd-party easing functions:
+//import d3 from 'd3-ease';
 
 
 class MapMBComp extends Component {
@@ -47,7 +50,10 @@ class MapMBComp extends Component {
         height: 600,
         longitude: 23.128452,
         latitude: 60.385288,
-        zoom: 17
+        zoom: 17,
+        transitionDuration: 5000,
+            transitionInterpolator: new FlyToInterpolator(),
+            //transitionEasing: d3.easeCubic
       }
     });
     console.log("viewport updeitattu");
@@ -92,7 +98,7 @@ class MapMBComp extends Component {
            <br></br>
            <button onClick={e => this.userActionIotCampusSADE15()}> Zoom on SADE (Salo IoT Campus), zoom 15</button>
            <br></br>    <br></br>
-           <button onClick={e => this.userActionSaloMarketPlace()}> Zoom on the beautiful, beautiful Salo Market Place, zoom 17</button>
+           <button onClick={e => this.userActionSaloMarketPlace()}> Zoom on the beautiful, beautiful Salo Market Place, and FLY there! (zoom 17) </button>
         </div>
 
       </div>
