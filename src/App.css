@@ -418,7 +418,7 @@ body{
 
 
 
-/* KARTTA-NAPPI-STYLINGS: näillä lähtee napin tausta ja taustaviivat jne niin että näkyy vain svk kuva ts. ikoni */
+/* KARTTA-NAPPI-STYLINGS (for Mapbox files missä markkereita): näillä lähtee napin tausta ja taustaviivat jne niin että näkyy vain svk kuva ts. ikoni */
 /* Ja tietysti ikonin koko ruudulla.  */
 .marker-btncss {
   background: none;
@@ -428,4 +428,16 @@ body{
 .marker-btncss img {
   width: 20px;
   height: 20px;
+}
+
+/* Tämä oli tarpeen että Leaflet kartta näkyi markkereiden kera, eli mapLeafletComp#3.js file */
+.karttaruutucss {
+  width: 1280px;
+  height: 720px;
+}
+
+/* Tämä ei tainnut olla tarpeen ollenkaan: (Leaflet) */
+.popupcss {
+  width: 100px;
+  height: 100px;
 }

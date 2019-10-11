@@ -6,14 +6,16 @@ import {LinearInterpolator, FlyToInterpolator} from 'react-map-gl';
 //import d3 from 'd3-ease';
 
 
-class MapMBComp extends Component {
+class MapMBComp2 extends Component {
 
   constructor() {
     super();
     this.state = {
       viewport: {
-        width: "80vw",
-        height: 600,
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 6
@@ -30,8 +32,10 @@ class MapMBComp extends Component {
     console.log("Zoom on SADE clicked")
     this.setState ( {
       viewport: {
-        width: "80vw",
-        height: 600,
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 15
@@ -40,6 +44,8 @@ class MapMBComp extends Component {
     console.log("viewport updeitattu");
     console.log(this.state);
     console.log("uusi zoom taso:" + this.state.viewport.zoom);
+    console.log("uusi width taso:" + this.state.viewport.width);
+    console.log("uusi height taso:" + this.state.viewport.height);
   }
 
 
@@ -47,8 +53,10 @@ class MapMBComp extends Component {
     console.log("Default View button clicked")
     this.setState ( {
       viewport: {
-        width: "80vw",
-        height: 600,
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 6
@@ -66,8 +74,10 @@ class MapMBComp extends Component {
     console.log("Zoom on Salo Market Place clicked")
     this.setState ( {
       viewport: {
-        width: "80vw",
-        height: 600,
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
         longitude: 23.128452,
         latitude: 60.385288,
         zoom: 17,
@@ -85,8 +95,10 @@ class MapMBComp extends Component {
     console.log("Zoom on Salo Market Place FAST clicked")
     this.setState ( {
       viewport: {
-        width: "80vw",
-        height: 600,
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
         longitude: 23.128452,
         latitude: 60.385288,
         zoom: 17,
@@ -107,6 +119,8 @@ class MapMBComp extends Component {
      console.log("viewport updeittantuu");
      console.log(this.state);
      console.log("uusi zoom taso:" + this.state.viewport.zoom);
+     console.log("uusi width taso:" + this.state.viewport.width);
+     console.log("uusi height taso:" + this.state.viewport.height);
   }
 
   render() {
@@ -152,6 +166,6 @@ class MapMBComp extends Component {
   }
 }
 
-export default MapMBComp;
+export default MapMBComp2;
 
 

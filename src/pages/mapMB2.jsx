@@ -2,16 +2,15 @@ import React, { Component } from 'react' ;
 import { Link } from "react-router-dom";
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import MapMBCompOttawaSkateParks from '../components/mapMBCompOttawaSkateParks';
+import MapMBComp2 from '../components/mapMBComp2';
 //Yleiset sivuasetukset, 5kpl importteja:
 import Header from '../components/header';
 import Kellotervehdys from '../components/kellotervehdys';
 import Spacekomponentti from '../components/spacekomponentti';
 import Spacekomponentti2 from '../components/spacekomponentti2'
 import Footer from '../components/footer.js';
-//import 'mapbox-gl/dist/mapbox-gl.css';
 
-class MapMBOttawaSkateParks extends Component {
+class MapMB2 extends Component {
     render() {
         return (
             <div>
@@ -26,23 +25,23 @@ class MapMBOttawaSkateParks extends Component {
                         <Link to="/home"> Go to Home </Link>
                         <br />
                         <br />
-                        Tämä on mapMBOttawaSkateParks.jsx (Mapbox Map, "Streets" style, with PopUps). Enjoy. 
+                        Tämä on mapMB2.jsx (Mapbox Map, "Satellite Streets" style, with ZoomIn and ZoomOut). Enjoy. 
                         <br />
                         <br />
-                        <MapMBCompOttawaSkateParks /> 
+                        <MapMBComp2 /> 
                         <Spacekomponentti />
-
+                        
                         Kaikki karttademot: 
-                        <li><Link to="/mapMBOttawaSkateParks"> Ottawa Skateparks (Leaflet core, Mapbox Map) (Tämä sivu) </Link></li>
+                        <li><Link to="/mapMBOttawaSkateParks"> Ottawa Skateparks (Leaflet core, Mapbox Map)</Link></li>
                         <li><Link to="/mapMBSaloFood"> Salo Food map (Leaflet core, Mapbox Map) </Link></li>
                         <li><Link to="/mapMB"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#1, smaller view window) </Link></li>
-                        <li><Link to="/mapMB2"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#2) </Link></li>
+                        <li><Link to="/mapMB2"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#2)  (Tämä sivu) </Link></li>
                         <li><Link to="/mapMB3"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#3, HEATMAP) </Link></li>
                         <li><Link to="/mapLeaflet1"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#1)  </Link></li>
-                        <li><Link to="/mapLeaflet2"> Southern Finland, Sat Map  (Leaflet core/library, Leaflet Map#2) </Link></li>
+                        <li><Link to="/mapLeaflet2"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#2) </Link></li>
                         <li><Link to="/mapLeaflet3"> Salo Map (Leaflet core/library, Leaflet Map#3, Open Street Maps) </Link></li>
                         <li><Link to="/mapOL"> Open Layers basic example (Open Layers Map) </Link></li>
-
+                                                
                         <Spacekomponentti2 />
                         <br />
                         <Link to="/home"> Go to Home </Link>
@@ -64,4 +63,4 @@ class MapMBOttawaSkateParks extends Component {
     }
 }
 
-export default MapMBOttawaSkateParks;
+export default MapMB2;

@@ -32,9 +32,14 @@ class MapMB extends Component {
                         <Spacekomponentti />
                         
                         Kaikki karttademot: 
-                        <li><Link to="/mapMBOttawaSkateParks"> Ottawa Skateparks (Mapbox Map) </Link></li>
-                        <li><Link to="/mapMBSaloFood"> Salo Food map (Mapbox Map) </Link></li>
-                        <li><Link to="/mapMB"> Southern Finland, Sat Map (Mapbox Map) (Tämä sivu) </Link></li>
+                        <li><Link to="/mapMBOttawaSkateParks"> Ottawa Skateparks (Leaflet core, Mapbox Map)</Link></li>
+                        <li><Link to="/mapMBSaloFood"> Salo Food map (Leaflet core, Mapbox Map) </Link></li>
+                        <li><Link to="/mapMB"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#1)  (Tämä sivu) </Link></li>
+                        <li><Link to="/mapMB2"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#2) </Link></li>
+                        <li><Link to="/mapMB3"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#3, HEATMAP) </Link></li>
+                        <li><Link to="/mapLeaflet1"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#1)  </Link></li>
+                        <li><Link to="/mapLeaflet2"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#2) </Link></li>
+                        <li><Link to="/mapLeaflet3"> Salo Map (Leaflet core/library, Leaflet Map#3, Open Street Maps) </Link></li>
                         <li><Link to="/mapOL"> Open Layers basic example (Open Layers Map) </Link></li>
                                                 
                         <Spacekomponentti2 />

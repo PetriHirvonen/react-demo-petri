@@ -17,8 +17,13 @@ import Rengaslaskurialkup from './pages/rengaslaskurialkup';
 import Contact from './pages/contact';
 import MapOL from './pages/mapOL';
 import MapMB from './pages/mapMB';
+import MapMB2 from './pages/mapMB2';
+import MapMB3 from './pages/mapMB3';
 import MapMBOttawaSkateParks from './pages/mapMBOttawaSkateParks';
 import MapMBSaloFood from './pages/mapMBSaloFood';
+import MapLeaflet1 from './pages/mapLeaflet1';
+import MapLeaflet2 from './pages/mapLeaflet2';
+import MapLeaflet3 from './pages/mapLeaflet3';
 import Store from './pages/store';
 import Storecart from './pages/storecart';
 import Storedetails from './pages/storedetails';
@@ -46,8 +51,13 @@ class IndexOmaAppRouter extends Component {
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/mapOL" component={MapOL} />
                     <Route exact path="/mapMB" component={MapMB} />
+                    <Route exact path="/mapMB2" component={MapMB2} />
+                    <Route exact path="/mapMB3" component={MapMB3} />
                     <Route exact path="/mapMBOttawaSkateParks" component={MapMBOttawaSkateParks} />
                     <Route exact path="/mapMBSaloFood" component={MapMBSaloFood} />
+                    <Route exact path="/mapLeaflet1" component={MapLeaflet1} />
+                    <Route exact path="/mapLeaflet2" component={MapLeaflet2} />
+                    <Route exact path="/mapLeaflet3" component={MapLeaflet3} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/store" component={Store} /> 
                     <Route exact path="/storecart" component={Storecart} /> 
