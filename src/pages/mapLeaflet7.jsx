@@ -2,7 +2,7 @@ import React, { Component } from 'react' ;
 import { Link } from "react-router-dom";
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import MapLeafletComp1 from '../components/mapLeafletComp1';
+import MapLeafletComp7 from '../components/mapLeafletComp7';
 //Yleiset sivuasetukset, 5kpl importteja:
 import Header from '../components/header';
 import Kellotervehdys from '../components/kellotervehdys';
@@ -10,7 +10,7 @@ import Spacekomponentti from '../components/spacekomponentti';
 import Spacekomponentti2 from '../components/spacekomponentti2'
 import Footer from '../components/footer.js';
 
-class MapLeaflet1 extends Component {
+class MapLeaflet7 extends Component {
     render() {
         return (
             <div>
@@ -25,10 +25,10 @@ class MapLeaflet1 extends Component {
                         <Link to="/home"> Go to Home </Link>
                         <br />
                         <br />
-                        Tämä on mapLeaflet1.jsx (Leaflet library, Mapbox Map). Enjoy. 
+                        Tämä on mapLeaflet4.jsx (Leaflet library, Mapbox Map). Enjoy. 
                         <br />
                         <br />
-                        <MapLeafletComp1 /> 
+                        <MapLeafletComp7 /> 
                         <Spacekomponentti />
                         
                         Kaikki karttademot: 
@@ -37,12 +37,14 @@ class MapLeaflet1 extends Component {
                         <li><Link to="/mapMB"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#1, smaller view window) </Link></li>
                         <li><Link to="/mapMB2"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#2) </Link></li>
                         <li><Link to="/mapMB3"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#3, HEATMAP) </Link></li>
-                        <li><Link to="/mapMB4"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#4, 3D MAP, blue buildings) </Link></li>
-                        <li><Link to="/mapLeaflet1"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#1) (Tämä sivu) </Link></li>
-                        <li><Link to="/mapLeaflet2"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#2) </Link></li>
+                        <li><Link to="/mapLeaflet1"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#1) </Link></li>
+                        <li><Link to="/mapLeaflet2"> Southern Finland, Sat Map  (Leaflet core/library, Leaflet Map#2) </Link></li>
                         <li><Link to="/mapLeaflet3"> Salo Map (Leaflet core/library, Leaflet Map#3, Open Street Maps) </Link></li>
+                        <li><Link to="/mapLeaflet4"> XX Map (Leaflet core/library, Leaflet Map#4, Open Street Maps) </Link></li>
+                        <li><Link to="/mapLeaflet5"> XX Map (Leaflet core/library, Leaflet Map#5, Open Street Maps) </Link></li>
+                        <li><Link to="/mapLeaflet7"> XX Map (Leaflet core/library, Leaflet Map#5, Open Street Maps) (Tämä sivu) </Link></li>
                         <li><Link to="/mapOL"> Open Layers basic example (Open Layers Map) </Link></li>
-                                                                        
+                                                
                         <Spacekomponentti2 />
                         <br />
                         <Link to="/home"> Go to Home </Link>
@@ -64,4 +66,4 @@ class MapLeaflet1 extends Component {
     }
 }
 
-export default MapLeaflet1;
+export default MapLeaflet7;

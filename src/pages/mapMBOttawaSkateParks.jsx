@@ -38,6 +38,7 @@ class MapMBOttawaSkateParks extends Component {
                         <li><Link to="/mapMB"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#1, smaller view window) </Link></li>
                         <li><Link to="/mapMB2"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#2) </Link></li>
                         <li><Link to="/mapMB3"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#3, HEATMAP) </Link></li>
+                        <li><Link to="/mapMB4"> Southern Finland, Sat Map (Leaflet core, Mapbox Map#4, 3D MAP, blue buildings) </Link></li>
                         <li><Link to="/mapLeaflet1"> Southern Finland, Sat Map (Leaflet core/library, Leaflet Map#1)  </Link></li>
                         <li><Link to="/mapLeaflet2"> Southern Finland, Sat Map  (Leaflet core/library, Leaflet Map#2) </Link></li>
                         <li><Link to="/mapLeaflet3"> Salo Map (Leaflet core/library, Leaflet Map#3, Open Street Maps) </Link></li>
