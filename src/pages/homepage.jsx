@@ -43,6 +43,7 @@ const HomePage = () => {
                 <br /> <Link to="/mapMB"> Go to Map (Leaflet core, Mapbox Maps nmbr1, smaller view window) </Link>
                 <br /> <Link to="/mapMB2"> Go to Map (Leaflet core, Mapbox Maps nmbr2) </Link>
                 <br /> <Link to="/mapMB3"> Go to Map (Leaflet core, Mapbox Maps nmbr3, HEATMAP) </Link>
+                <br /> <Link to="/mapMB4"> Go to Map (Leaflet core, Mapbox Maps nmbr3, 3D MAP) </Link>
                 <br /> <Link to="/mapMBOttawaSkateParks"> Go to Ottawa Skateboard Maps demo page (Leaflet core, Mapbox Maps) </Link>
                 <br /> <Link to="/mapMBSaloFood"> Go to Salo Food Scene i.e. key restaurants (Leaflet core, Mapbox Maps) </Link>
                 <br /> <Link to="/mapLeaflet1"> Go to Leaflet map demo nmbr1 (Leaflet core/library, Leaflet Maps) </Link>
