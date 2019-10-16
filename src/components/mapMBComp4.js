@@ -200,7 +200,49 @@ class MapMBComp4 extends Component {
     console.log("uusi zoom taso:" + this.state.viewport.zoom);
   }
 
-  userActionFlySeattleSpaceNeedle() {
+  userActionFlySeattleSpaceNeedleSlow() {
+    console.log("Zoom on SeattleSN clicked")
+    this.setState ( {
+      viewport: {
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
+        longitude: -122.349308,
+        latitude: 47.620513,
+        zoom: 16,
+        pitch: 30,
+        transitionDuration: 13000,
+        transitionInterpolator: new FlyToInterpolator(),
+      }
+    });
+    console.log("viewport updeitattu");
+    console.log(this.state);
+    console.log("uusi zoom taso:" + this.state.viewport.zoom);
+  }
+
+  userActionFlySeattleSpaceNeedleFast60() {
+    console.log("Zoom on SeattleSN clicked")
+    this.setState ( {
+      viewport: {
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
+        longitude: -122.349308,
+        latitude: 47.620513,
+        zoom: 16,
+        pitch: 60,
+        transitionDuration: 3000,
+        transitionInterpolator: new FlyToInterpolator(),
+      }
+    });
+    console.log("viewport updeitattu");
+    console.log(this.state);
+    console.log("uusi zoom taso:" + this.state.viewport.zoom);
+  }
+
+  userActionFlySeattleSpaceNeedleFast() {
     console.log("Zoom on SeattleSN clicked")
     this.setState ( {
       viewport: {
@@ -214,13 +256,34 @@ class MapMBComp4 extends Component {
         pitch: 30,
         transitionDuration: 3000,
         transitionInterpolator: new FlyToInterpolator(),
-        //transitionEasing: d3.easeCubic
       }
     });
     console.log("viewport updeitattu");
     console.log(this.state);
     console.log("uusi zoom taso:" + this.state.viewport.zoom);
   }
+
+  userActionFlySeattleSpaceNeedleFast10() {
+    console.log("Zoom on SeattleSN clicked")
+    this.setState ( {
+      viewport: {
+        // width: "80vw",
+        // height: 600,
+        width: 1280,
+        height: 720,
+        longitude: -122.349308,
+        latitude: 47.620513,
+        zoom: 16,
+        pitch: 10,
+        transitionDuration: 3000,
+        transitionInterpolator: new FlyToInterpolator(),
+      }
+    });
+    console.log("viewport updeitattu");
+    console.log(this.state);
+    console.log("uusi zoom taso:" + this.state.viewport.zoom);
+  }
+
 
   userActionFlySeattleWaterfront() {
     console.log("Zoom on Seattle WF clicked")
@@ -303,9 +366,15 @@ class MapMBComp4 extends Component {
             &nbsp; &nbsp; 
             <button onClick={e => this.userActionSaloMarketPlaceFast2()}> ...or FLY there FAST! (zoom 17, pitch 10) </button>
             &nbsp; &nbsp; 
-            <button onClick={e => this.userActionFlySeattleSpaceNeedle()}> ...or FLY to Seattle Space Needle (zoom 17, pitch 30) </button>
+            <button onClick={e => this.userActionFlySeattleSpaceNeedleSlow()}> ...or FLY to Seattle Space Needle SLOW (zoom 17, pitch 30) </button>
+            &nbsp; &nbsp; 
+            <button onClick={e => this.userActionFlySeattleSpaceNeedleFast60()}> ...or FLY to Seattle Space Needle FAST (zoom 17, pitch 60) </button>
+            &nbsp; &nbsp; 
+            <button onClick={e => this.userActionFlySeattleSpaceNeedleFast()}> ...or FLY to Seattle Space Needle FAST (zoom 17, pitch 30) </button>
+            &nbsp; &nbsp; 
+            <button onClick={e => this.userActionFlySeattleSpaceNeedleFast10()}> ...or FLY to Seattle Space Needle FAST (zoom 17, pitch 10) </button>
              &nbsp; &nbsp; 
-            <button onClick={e => this.userActionFlySeattleWaterfront()}> ...or FLY to Seattle Waterfront (zoom 17, pitch 30) </button>
+            <button onClick={e => this.userActionFlySeattleWaterfront()}> ...or FLY to Seattle Waterfront FAST (zoom 17, pitch 30) </button>
         </div>
 
       </div>
