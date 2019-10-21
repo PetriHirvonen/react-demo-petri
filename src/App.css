@@ -432,6 +432,11 @@ body{
 
 /* Tämä oli tarpeen että Leaflet kartta näkyi markkereiden kera, eli mapLeafletComp#3.js file */
 .karttaruutucss {
+  width: 80vw;
+  height: 42vh;
+}
+
+.karttaruutucssalkuperainen {
   width: 1280px;
   height: 720px;
 }

@@ -8,7 +8,8 @@ import importOmastaFolderista from '../icons/foodicon3.PNG'
 import L from 'leaflet';
 
 // Leaflet webbisivu: https://www.npmjs.com/package/leaflet
-  
+// Huom: ei eroa onko tämä js vai jsx file, works the same 
+
 export default class MapLeaflet4 extends Component {
     constructor() {
         super();

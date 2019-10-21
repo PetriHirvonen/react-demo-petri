@@ -13,7 +13,7 @@ class MapMBComp extends Component {
     this.state = {
       viewport: {
         width: "80vw",
-        height: 600,
+        height: 500,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 6
@@ -25,13 +25,47 @@ class MapMBComp extends Component {
     // this.userActionSaloMarketPlaceFast = this.userActionSaloMarketPlaceFast.bind(this)
   }
 
+  userActionDefaultView() {
+    console.log("Default View button clicked")
+    this.setState ( {
+      viewport: {
+        width: "80vw",
+        height: 500,
+        //height: "40vh",
+        longitude: 23.102628,
+        latitude: 60.389487,
+        zoom: 6
+      }
+    });
+    console.log("viewport updeitattu");
+    console.log(this.state);
+    console.log("uusi zoom taso:" + this.state.viewport.zoom);
+  }
+
+  userActionDefaultViewVhVw() {
+    console.log("Default View button clicked")
+    this.setState ( {
+      viewport: {
+        width: "80vw",
+        //height: 600,
+        height: "40vh",
+        longitude: 23.102628,
+        latitude: 60.389487,
+        zoom: 6
+      }
+    });
+    console.log("viewport updeitattu");
+    console.log(this.state);
+    console.log("uusi zoom taso:" + this.state.viewport.zoom);
+  }
+
   //Kovakoodattua dataa napin takana, nappi nro 15:  
   userActionIotCampusSADE15() {
     console.log("Zoom on SADE clicked")
     this.setState ( {
       viewport: {
-        width: "80vw",
-        height: 600,
+        width: this.state.viewport.width,
+        height: this.state.viewport.height,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 15
@@ -43,21 +77,7 @@ class MapMBComp extends Component {
   }
 
 
-  userActionDefaultView() {
-    console.log("Default View button clicked")
-    this.setState ( {
-      viewport: {
-        width: "80vw",
-        height: 600,
-        longitude: 23.102628,
-        latitude: 60.389487,
-        zoom: 6
-      }
-    });
-    console.log("viewport updeitattu");
-    console.log(this.state);
-    console.log("uusi zoom taso:" + this.state.viewport.zoom);
-  }
+
 
 
   //Kovakoodattua dataa napin takana, nappi nro 17:  
@@ -66,8 +86,8 @@ class MapMBComp extends Component {
     console.log("Zoom on Salo Market Place clicked")
     this.setState ( {
       viewport: {
-        width: "80vw",
-        height: 600,
+        width: this.state.viewport.width,
+        height: this.state.viewport.height,
         longitude: 23.128452,
         latitude: 60.385288,
         zoom: 17,
@@ -85,8 +105,8 @@ class MapMBComp extends Component {
     console.log("Zoom on Salo Market Place FAST clicked")
     this.setState ( {
       viewport: {
-        width: "80vw",
-        height: 600,
+        width: this.state.viewport.width,
+        height: this.state.viewport.height,
         longitude: 23.128452,
         latitude: 60.385288,
         zoom: 17,
@@ -138,11 +158,16 @@ class MapMBComp extends Component {
             <br></br>
             <button onClick={e => this.userActionIotCampusSADE15()}> Zoom on SADE (Salo IoT Campus), zoom 15</button>
               &nbsp; &nbsp; 
-              <button onClick={e => this.userActionDefaultView()}> Back to default view, zoom 6 </button>
+            <button onClick={e => this.userActionSaloMarketPlace()}> Zoom on Salo Market Place, and FLY there! (zoom 17) </button>
               &nbsp; &nbsp; 
-            <button onClick={e => this.userActionSaloMarketPlace()}> Zoom on the beautiful, beautiful Salo Market Place, and FLY there! (max. zoom 17) </button>
+            <button onClick={e => this.userActionSaloMarketPlaceFast()}> ...or FLY there FAST! (zoom 17) </button>
+            <br></br>
+
+            <button onClick={e => this.userActionDefaultViewVhVw()}> Go to screen-size optimized view, zoom 6 </button>
               &nbsp; &nbsp; 
-            <button onClick={e => this.userActionSaloMarketPlaceFast()}> ...or FLY there FAST! (max. zoom 17) </button>
+            <button onClick={e => this.userActionDefaultView()}> Back to default view, zoom 6 </button>
+              &nbsp; &nbsp; 
+            
         </div>
 
       </div>

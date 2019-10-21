@@ -32,7 +32,8 @@ export default class MapMBComp3 extends Component {
     this.state = {
       viewport: {
         width: 1280,
-        height: 720,
+        //height: 720,
+        height: "50vh",
         latitude: 40,
         longitude: -100,
         zoom: 3,

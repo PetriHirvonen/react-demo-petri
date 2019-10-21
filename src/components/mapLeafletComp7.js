@@ -15,8 +15,8 @@ export default class MapLeaflet7 extends Component {
         this.state = {
           animate: false, 
           latlng:{
-            lat: 51.505,
-            lng: -0.09,
+            lat: 60.389487, 
+            lng: 23.102628,
           },
           zoom: 13,
         };

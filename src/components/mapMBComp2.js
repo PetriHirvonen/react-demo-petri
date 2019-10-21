@@ -13,9 +13,9 @@ class MapMBComp2 extends Component {
     this.state = {
       viewport: {
         // width: "80vw",
-        // height: 600,
+        height: 600,
         width: 1280,
-        height: 720,
+        //height: 720,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 6
@@ -33,9 +33,9 @@ class MapMBComp2 extends Component {
     this.setState ( {
       viewport: {
         // width: "80vw",
-        // height: 600,
+        height: 600,
         width: 1280,
-        height: 720,
+        //height: 720,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 15
@@ -54,9 +54,9 @@ class MapMBComp2 extends Component {
     this.setState ( {
       viewport: {
         // width: "80vw",
-        // height: 600,
+        height: 600,
         width: 1280,
-        height: 720,
+        //height: 720,
         longitude: 23.102628,
         latitude: 60.389487,
         zoom: 6
@@ -75,9 +75,9 @@ class MapMBComp2 extends Component {
     this.setState ( {
       viewport: {
         // width: "80vw",
-        // height: 600,
+        height: 600,
         width: 1280,
-        height: 720,
+        //height: 720,
         longitude: 23.128452,
         latitude: 60.385288,
         zoom: 17,
@@ -96,9 +96,9 @@ class MapMBComp2 extends Component {
     this.setState ( {
       viewport: {
         // width: "80vw",
-        // height: 600,
+        height: 600,
         width: 1280,
-        height: 720,
+        //height: 720,
         longitude: 23.128452,
         latitude: 60.385288,
         zoom: 17,

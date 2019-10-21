@@ -20,6 +20,7 @@ import MapMB from './pages/mapMB';
 import MapMB2 from './pages/mapMB2';
 import MapMB3 from './pages/mapMB3';
 import MapMB4 from './pages/mapMB4';
+import MapMB5 from './pages/mapMB5';
 import MapMBOttawaSkateParks from './pages/mapMBOttawaSkateParks';
 import MapMBSaloFood from './pages/mapMBSaloFood';
 import MapLeaflet1 from './pages/mapLeaflet1';
@@ -58,6 +59,7 @@ class IndexOmaAppRouter extends Component {
                     <Route exact path="/mapMB2" component={MapMB2} />
                     <Route exact path="/mapMB3" component={MapMB3} />
                     <Route exact path="/mapMB4" component={MapMB4} />
+                    <Route exact path="/mapMB5" component={MapMB5} />
                     <Route exact path="/mapMBOttawaSkateParks" component={MapMBOttawaSkateParks} />
                     <Route exact path="/mapMBSaloFood" component={MapMBSaloFood} />
                     <Route exact path="/mapLeaflet1" component={MapLeaflet1} />

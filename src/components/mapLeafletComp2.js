@@ -7,9 +7,12 @@ import styled from 'styled-components';
 
 // Leaflet webbisivu: https://www.npmjs.com/package/leaflet
 
+
 const Wrapper = styled.div`
-    width: 1280px;
-    height: 720px;
+    // width: 1280px;
+    // height: 720px;
+    width: 80vw;
+    height: 40vh;
 `;
 
 export default class MapLeaflet2 extends Component {

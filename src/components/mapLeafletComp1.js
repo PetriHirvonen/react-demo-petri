@@ -34,6 +34,7 @@ export default class MapLeaflet1 extends React.Component {
             maxZoom: 20,
             maxNativeZoom: 17,
         }).addTo(this.map);
+        
         console.log("componentDidMount, zoom: 6, this.map:");
         console.log(this.map);  
         console.log("componentDidMount, this.map._zoom ja -lastCenter:");
