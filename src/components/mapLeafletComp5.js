@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Map, TileLayer, Marker, Popup, Viewport } from "react-leaflet";
+//mport { Map, TileLayer, Marker, Popup, Viewport } from "react-leaflet";
+import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 // import 'leaflet/dist/leaflet.css';
 // import { render } from 'react-dom';
 // // import styled from 'styled-components';

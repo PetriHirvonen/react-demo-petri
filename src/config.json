@@ -1,0 +1,11 @@
+{
+    "api": { 
+      "invokeUrl": "https://5bltcq602h.execute-api.us-west-2.amazonaws.com/prod"
+    },
+    "cognito": {
+      "REGION": "us-east-1",
+      "USER_POOL_ID": "us-east-1_EcBCkql1w",
+      "APP_CLIENT_ID": "70oqdi8jc15cbrd65q5m9396l6",
+      "IDENTITY_POOL_ID": "us-east-1:16c667e8-a166-4306-87e0-606200881180"
+    }
+}

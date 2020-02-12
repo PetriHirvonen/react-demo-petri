@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import { Map, TileLayer, Marker, Popup, Viewport } from "react-leaflet";
+//import { Map, TileLayer, Marker, Popup, Viewport } from "react-leaflet";
+import { Map, TileLayer } from "react-leaflet";
 // import 'leaflet/dist/leaflet.css';
 // import { render } from 'react-dom';
 // // import styled from 'styled-components';
 // // import {LinearInterpolator, FlyToInterpolator} from 'react-map-gl';
-import importOmastaFolderista from '../icons/foodicon3.PNG'
-import L from 'leaflet';
+
+// import importOmastaFolderista from '../icons/foodicon3.PNG'
+// import L from 'leaflet';
 
 // Leaflet webbisivu: https://www.npmjs.com/package/leaflet
   

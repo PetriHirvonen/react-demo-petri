@@ -8,12 +8,22 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Spacekomponentti from './components/spacekomponentti';
 import Spacekomponentti2 from './components/spacekomponentti2';
 import { ProductProvider } from './context';
-
+//AmplifyCognito-jutut:
+//import AppAmplify from './AppAmplify';
+// Log-in feature prerequisited:
+import {withAuthenticator} from 'aws-amplify-react';
 
 class IndexOma extends Component {
     render() {
         return (
             <div>
+                {/* 
+                <div>
+                    <Spacekomponentti /> 
+                    <AppAmplify /> AppAmplifyKoeTekstiäIndexOma.js:stä 
+                </div>
+                */}
+                                
                 <div className="IndexOma">
                     <ProductProvider>
                             <Spacekomponentti />  
@@ -35,8 +45,11 @@ class IndexOma extends Component {
     }
 }
 
-    
 
-export default IndexOma;
+
+//export default IndexOma;
+
+// Log-in feature prerequisited::
+export default withAuthenticator(IndexOma, {includeGreetings: true})
 
 // Polku: index.js <- indexOma.js <- indexOmaAppRouter.js

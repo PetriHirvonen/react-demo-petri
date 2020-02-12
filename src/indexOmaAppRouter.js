@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./App.css";
-import { BrowserRouter, Route, Switch, Link, Redirect } from "react-router-dom";
+//import { BrowserRouter, Route, Switch, Link, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //Pages:
 import HomePage from "./pages/homepage";
@@ -33,8 +34,12 @@ import Store from './pages/store';
 import Storecart from './pages/storecart';
 import Storedetails from './pages/storedetails';
 import About from './pages/about';
-
-
+import AwsFormPage from './pages/awsformpage';
+import AwsSmsFormPage from './pages/awssmsformpage';
+import AwsDynamoDbEventAdminPage from './pages/awsdynamodbEventAdminPage';
+import AwsDynamoDbEventsPage from './pages/awsdynamodbEventsPage';
+import AwsQuickSightPage1 from './pages/awsquicksightPage1';
+import AppAmplify from  './AppAmplify';
 
 
 class IndexOmaAppRouter extends Component {
@@ -72,6 +77,19 @@ class IndexOmaAppRouter extends Component {
                     <Route exact path="/store" component={Store} /> 
                     <Route exact path="/storecart" component={Storecart} /> 
                     <Route exact path="/storedetails" component={Storedetails} />
+                    <Route exact path="/awsformpage" component={AwsFormPage} />
+                    <Route exact path="/awssmsformpage" component={AwsSmsFormPage} />
+                    <Route exact path="/awsdynamodbEventsPage" component={AwsDynamoDbEventsPage} />
+                    <Route exact path="/awsdynamodbEventAdminPage" component={AwsDynamoDbEventAdminPage} />
+                    <Route exact path="/awsquicksightPage1" component={AwsQuickSightPage1} />
+                    {/* Seuraavat tarvitaan jotta ei tule 404 erroria (vaikka toiminne onkin filessä AppAmplify.js): */}
+                    <Route exact path="/login" component={AppAmplify}/>
+                    <Route exact path="/register" component={AppAmplify} />
+                    <Route exact path="/forgotpassword" component={AppAmplify} />
+                    <Route exact path="/forgotpasswordverification" component={AppAmplify} />
+                    <Route exact path="/changepassword" component={AppAmplify} />
+                    <Route exact path="/changepasswordconfirmation" component={AppAmplify} />
+                    <Route exact path="/welcome" component={AppAmplify} />
                     <Route component={Default} />
                     {/* <Redirect to="/404" /> */}
                 </Switch>

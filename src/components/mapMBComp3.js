@@ -106,7 +106,8 @@ export default class MapMBComp3 extends Component {
 
 
   render() {
-    const {viewport, data, allDay, selectedTime, startTime, endTime} = this.state;
+    //const {viewport, data, allDay, selectedTime, startTime, endTime} = this.state;
+    const {data, allDay, selectedTime, startTime, endTime} = this.state;
     const toukkeni = process.env.REACT_APP_MAPBOX_TOKEN;
     
     return (

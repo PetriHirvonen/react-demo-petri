@@ -10,13 +10,18 @@ import Kellotervehdys from '../components/kellotervehdys';
 import Spacekomponentti from '../components/spacekomponentti';
 import Spacekomponentti2 from '../components/spacekomponentti2'
 import Footer from '../components/footer.js';
-   
+//AmplifyCognito-jutut näkyville etusivulle erikseen:
+//import AppAmplify from '../AppAmplify';
+
+console.log("homepage.jsx loaded.")
+
 const HomePage = () => {
     return (
         <div>
             <div className="IndexOma">
                 <Header />
-                <Kellotervehdys />
+                <Kellotervehdys  />
+                {/* <AppAmplify /> */}
                 <Spacekomponentti /> 
             </div>
             
@@ -52,6 +57,11 @@ const HomePage = () => {
                 <br /> <Link to="/mapLeaflet3">   &nbsp; Go to Leaflet map demo nmbr3 (Leaflet core/library, Leaflet Maps) </Link>
                 <br /> <Link to="/mapLeaflet5">   &nbsp; Go to Leaflet map demo nmbr5 (Leaflet core/library, Leaflet Maps, Different map STYLES etc) </Link>
                 <br /> <Link to="/store"> Go to WEB STORE </Link>
+                <br /> <Link to="/awsformpage"> Go to AWS <font style={{fontWeight: "bold", color: "black"}}> EMAIL </font>  SENDING page </Link>
+                <br /> <Link to="/awssmsformpage"> Go to AWS <font style={{fontWeight: "bold", color: "black"}}> SMS </font>SENDING page </Link>
+                <br /> <Link to="/awsdynamodbEventsPage"> Go to AWS <font style={{fontWeight: "bold", color: "black"}}> Dynamo DB </font> Event List page </Link>
+                <br /> <Link to="/awsdynamodbEventAdminPage"> Go to AWS <font style={{fontWeight: "bold", color: "black"}}> Dynamo DB </font> Event Admin page </Link>
+                <br /> <Link to="/awsquicksightPage1"> Go to AWS <font style={{fontWeight: "bold", color: "black"}}> QuickSight 1 </font> page </Link>
                 <br /> <Link to="/about"> Go to About </Link>
                 <br />
                 <a href="http://www.sadeinnovations.com"> External linkkiä... </a>

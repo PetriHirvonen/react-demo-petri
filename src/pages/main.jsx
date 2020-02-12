@@ -32,7 +32,12 @@ import Kellotervehdys from '../components/kellotervehdys';
 //import Spacekomponentti from '../components/spacekomponentti';
 //import Spacekomponentti2 from '../components/spacekomponentti2'
 import Footer from '../components/footer.js';
-
+import MainSimplest from '../components/mainSimplest.js';
+import MainSimplest2 from '../components/mainSimplest2.js';
+import MainSimplest3taulukko from '../components/mainSimplest3taulukko.js';
+import MainSimplest4counter from '../components/mainSimplest4counter.js';
+import MainSimplest5osa2 from '../components/mainSimplest5osa2.js';
+import MainSimplest5osa2axios from '../components/mainSimplest5osa2axios.js';
 
 class Main extends Component {
     render() {
@@ -45,7 +50,7 @@ class Main extends Component {
                 </div>
                 
                 <div className="IndexOma">
-                    Tämä on main.js file. Tältä sivulta löydät kaikenlaista experimentaalista hauskaa.
+                    Tämä on main.jsx page file. Tältä sivulta löydät kaikenlaista experimentaalista hauskaa.
                     <br />
                     <br />
                     <Link to="/home"> Go to Home </Link>
@@ -73,6 +78,14 @@ class Main extends Component {
                     <Spacekomponentti />
                     <Testi />
                     <Testirender />
+                    <br />
+                    <MainSimplest />
+                    <MainSimplest2 />
+                    <MainSimplest3taulukko />
+                    <MainSimplest4counter />
+                    <MainSimplest5osa2 />
+                    <MainSimplest5osa2axios />
+                    <br />
                     <Spacekomponentti />
                 </div>
 

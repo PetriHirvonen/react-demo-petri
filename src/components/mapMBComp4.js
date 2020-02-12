@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import  ReactMapGL, { NavigationControl}  from 'react-map-gl';
 //Fly transition:
-import {LinearInterpolator, FlyToInterpolator} from 'react-map-gl';
+// import {LinearInterpolator, FlyToInterpolator} from 'react-map-gl';
+import {FlyToInterpolator} from 'react-map-gl';
 // Fly transition:, 3rd-party easing functions:
 //import d3 from 'd3-ease';
 

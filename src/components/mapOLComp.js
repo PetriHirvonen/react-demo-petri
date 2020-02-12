@@ -9,7 +9,7 @@ import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
 import GeoJSON from 'ol/format/GeoJSON';
 //UUSI XYZ kartta:
-import XYZ from 'ol/source/XYZ.js';
+//import XYZ from 'ol/source/XYZ.js';
 
 class MapOLComp extends Component {
   constructor(props) {
@@ -19,9 +19,9 @@ class MapOLComp extends Component {
     this.state = { center: [2571757.257855, 8486953.735903], zoom: 1 };
 
     //UUSI KARTTA:
-    var tileSize = 512;
-    var urlTemplate = 'https://services.arcgisonline.com/arcgis/rest/services/' +
-  'ESRI_Imagery_World_2D/MapServer/tile/{z}/{y}/{x}';
+  //   var tileSize = 512;
+  //   var urlTemplate = 'https://services.arcgisonline.com/arcgis/rest/services/' +
+  // 'ESRI_Imagery_World_2D/MapServer/tile/{z}/{y}/{x}';
 
 
     this.olmap = new Map({

@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import L from 'leaflet';
-import { Map, TileLayer, Marker, Popup, Viewport } from "react-leaflet";
+//import { Map, TileLayer, Marker, Popup, Viewport } from "react-leaflet";
+import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 // import styled from 'styled-components';
 //import {LinearInterpolator, FlyToInterpolator} from 'react-map-gl';
-import { render } from 'react-dom';
+//import { render } from 'react-dom';  // HMM, MIKÄ LIE??
 //import importOmastaFolderista from '../foodicon2.PNG'
 import importOmastaFolderista from '../icons/foodicon3.PNG'
 

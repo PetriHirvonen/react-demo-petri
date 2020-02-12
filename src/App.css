@@ -1,3 +1,11 @@
+h6 {
+  color: green;
+  font-style: italic;
+  font-weight: bold  !important;
+  font-size: 21px   !important;
+}
+
+
 .App {
   text-align: center;
 }
@@ -446,3 +454,89 @@ body{
   width: 100px;
   height: 100px;
 }
+
+
+
+
+
+/* DYNAMO DB TABLE STYLINGS: */
+/* HUOM "!important" tekee että k.o. asetus overridaa default bootstrapin*/
+
+.eventsboxcss {
+  background-color: rgb(252, 248, 248);
+  margin: 20px;
+  width: 80%; 
+  /* display: flex;
+  flex-direction: column; */
+  align-items: left;
+  border: 1px solid #efefef;
+  box-shadow:
+    /* Top layer shadow: */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* Second layer: */
+    0 10px 0 -5px #eee,
+    /* Second layer shadow: */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    /* Third layer: */
+    0 20px 0 -10px #eee,
+    /* Third layer shadow: */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+  padding: 5px;
+}
+
+/* LOG-IN osio hienosäätöä: */
+/* .navbar-end {
+  position: fixed;
+  top: 45px;
+} */
+h1 {
+  font-size: 2em;
+}
+.product-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.product-id {
+  font-size: .8em;
+  margin: 1em 0;
+}
+.product-edit-icon {
+  opacity: .7;
+  position: absolute;
+  right: 2.3rem;
+  top: .4rem;
+}
+.product-edit-icon:hover {
+  opacity: 1;
+}
+.navbar, .navbar-end, .navbar-menu, .navbar-start {
+  align-items: stretch !important;
+  display: flex !important;
+}
+.navbar-menu {
+  flex-grow: 1 !important;
+  flex-shrink: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.navbar-item {
+  display: flex !important;
+}
+.navbar-end {
+  justify-content: flex-end !important;
+  margin-left: auto !important;
+}
+.features {
+  padding-bottom: 3em;
+}
+body {
+  visibility: visible !important;
+}
+.auth form {
+  margin-top: 1em;
+  max-width: 50%;
+}
+.buttons {
+  margin-left: 1em;
+}
+
