@@ -8,14 +8,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import Counters from './components/counters';
 import IndexOma from './indexOma';
 
-//AmplifyCognito-jutut:
+//AmplifyCognito-jutut: 
 import Amplify from "aws-amplify";
 import config from "./config";
 //import AppAmplify from './AppAmplify';
 
 Amplify.configure({
     Auth: {
-      mandatorySignIn: true,
+      //mandatorySignIn: true,
+      mandatorySignIn: false,
       region: config.cognito.REGION,
       userPoolId: config.cognito.USER_POOL_ID,
       userPoolWebClientId: config.cognito.APP_CLIENT_ID,
