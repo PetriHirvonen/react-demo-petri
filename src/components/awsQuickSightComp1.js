@@ -34,9 +34,9 @@ export default class AwsQuickSightComp1 extends Component {
         //     console.error(error);
         // });
 
+        const url = `https://us-east-1.quicksight.aws.amazon.com/embed/f8ec24bc1c7642ef88603c0d7a60e2fe/dashboards/15f0d094-d6a9-4079-b00d-58aed8f5bc38?isauthcode=true&identityprovider=quicksight&code=AYABeBy2k3-NVSbei3G0tsi9X1AAAAABAAdhd3Mta21zAEthcm46YXdzOmttczp1cy1lYXN0LTE6MjU5NDgwNDYyMTMyOmtleS81NGYwMjdiYy03MDJhLTQxY2YtYmViNS0xNDViOTExNzFkYzMAuAECAQB4P-lAb3AsrVHPwO-wVCEmuFDTp0yz4wFfkrwutzPupewBbQXtq55srEUnC7r5VjZeLAAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDJeJI24dSyTi-wt6jAIBEIA7bSbcAflWZYN5dJb9HI8DiAUr-b6ZrfjKvxYeSH_3bMP6uHaSU-TrpxZ_k8h7rWsRk42ZGd-cMfXP038CAAAAAAwAABAAAAAAAAAAAAAAAAAAXzGud0Mg76jkqE1weBQjVv____8AAAABAAAAAAAAAAAAAAABAAAAmyy7SWRO_4PsE1aLw31Yl4ul3pE0uRBaWVrGjcDkDef0gALPBOqP6GkFhUg3_9ejy71F1HkpCdQ2dwr9n36SpMS_P2D7jFROSNY3zxcZwDpl_texYM_2FOayQvupr2AS-0ErmPXHljtn9gFFCzjFU6eRxgWq_FMlJfPRkLugThlK5S0f3fWnuOfq5Ck-zSHLlvnmIagbDgiJmsDZS-tdIrY8Vkw8Spw9wHMPPw%3D%3D`
         //const url = ``
-        const url = `https://us-east-1.quicksight.aws.amazon.com/embed/ddb26be346aa40a2983ad9a2d379258c/dashboards/15f0d094-d6a9-4079-b00d-58aed8f5bc38?isauthcode=true&identityprovider=quicksight&code=AYABeLMtKet4Y_viv7nsOYsnR4QAAAABAAdhd3Mta21zAEthcm46YXdzOmttczp1cy1lYXN0LTE6MjU5NDgwNDYyMTMyOmtleS81NGYwMjdiYy03MDJhLTQxY2YtYmViNS0xNDViOTExNzFkYzMAuAECAQB4P-lAb3AsrVHPwO-wVCEmuFDTp0yz4wFfkrwutzPupewBA5ZLFONBkIGkF3GigdHDYAAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDJCqhQie0GgMO3GjRgIBEIA7QETwKm0je7X_TpA9JbZz6xU5FbWO7Pm9W012qbXAkuKnvV5kZX7wONjNPts6TGQqgsxAIoCi9XbEPosCAAAAAAwAABAAAAAAAAAAAAAAAAAAu23O7BVhMAOOAmxRnPMgvP____8AAAABAAAAAAAAAAAAAAABAAAAm-0FywBRXa1Qd3esHmjy6_5Zz9OoiKn-6_RVKfEzEqly8CmdIXO0uh8IS3-yCo5KSmZbGMUlQlw0esl5cge7Tz7OwrLZx4Dm9fv0uoOEaFvgVlx-0DJ0LTRVuAfGblaNod8dd5atwvZnGVJ71ZKss_bvm3nqV5p5Lu1GMH2lJcCeAGeYPkIpbG4yxSlwQMc2p54w4ssTrG3ZhoBXBkDXV9d3yUfY2BNHBF46Iw%3D%3D`
-
+        //const url = ``
 
         console.log("url: ", url); // prints Promise <pending>
         const options = {
